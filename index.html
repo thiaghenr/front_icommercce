@@ -20,25 +20,45 @@
     <!-- /Start your project here-->
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-toogleable-md navbar-dark bg-primary">
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-dark bg-primary">
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a href="#" class="navbar-brand">
-                    <strong>NavBar</strong>
+                    <strong>iCommerce</strong>
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav1">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">Faturamento</li>
-                        <li class="nav-item">Estoque</li>
-                        <li class="nav-item">Produção</li>
-                        <li class="nav-item">Financeiro</li>
-                        <li class="nav-item">Compras</li>
-                        <li class="nav-item">Cadastro</li>
-                        <li class="nav-item">Diversos</li>
-                        <li class="nav-item">Bancos</li>
-                        <li class="nav-item">Administrativo</li>
+                        <li class="nav-item dropdown btn-group">
+                            <a href="#" class="nav-link dropdown-toggle" id="dropdown_Faturamento" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Faturamento</a>
+                            <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdown_Faturamento">
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#" class="dropdown-item">Pedido</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a href="#">Efetuar Pedido</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pesquisar Pedido</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <a href="#" class="dropdown-item">Consignação</a>
+                                <a href="#" class="dropdown-item">Devolução</a>
+                                <a href="#" class="dropdown-item">Caixa</a>
+                                <a href="#" class="dropdown-item">Lançamento</a>
+                                <a href="#" class="dropdown-item">Vendas</a>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle">Estoque</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle">Produção</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle">Financeiro</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle">Compras</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle">Cadastro</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle">Diversos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle">Bancos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link dropdown-toggle">Administrativo</a></li>
                     </ul>
                 </div>
             </div>
